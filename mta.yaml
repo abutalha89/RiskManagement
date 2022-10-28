@@ -99,7 +99,8 @@ resources:
           role-template-references:
           - $XSAPPNAME.RiskViewer
        oauth2-configuration:
-        redirect-urls: 'https://cld200-cf-a09-dev-risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback'           
+        redirect-uris: 
+        - 'https://cld200-cf-a09-dev-risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback'           
 # ------------------------------------------------------------
  - name: risk-management-db
 # ------------------------------------------------------------
